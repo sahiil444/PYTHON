@@ -13,7 +13,7 @@ class NLPApp:
         self.root.title('NLPApp')
         self.root.geometry('350x600')
         self.root.configure(bg='#34495E')
-        self.root.iconbitmap('resorces/favicon.ico')
+        # self.root.iconbitmap('resorces/favicon.ico')
         self.login_gui()
         self.root.mainloop()
 

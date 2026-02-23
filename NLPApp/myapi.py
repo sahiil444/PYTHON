@@ -5,7 +5,7 @@ import nlpcloud
 class API:
 
     def __init__(self):
-        self.client = nlpcloud.Client("gpt-oss-120b", "30f50d791bcaabba3ab81f3dc6ab6be6c47835e8", gpu=True)
+        self.client = nlpcloud.Client("gpt-oss-120b", "c79e25f38ae7faadb017626aabc0ec7f598a5448", gpu=True)
         
 
     def sentiment_analysis(self,para):
